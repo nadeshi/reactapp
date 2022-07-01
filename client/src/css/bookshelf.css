@@ -1,0 +1,23 @@
+.bookshelf{
+    min-height: 100vh;
+    max-width: 100vw;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.cover{
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    text-align: center;
+    width: 33vw;
+    height: 40vh;
+    overflow: hidden;
+}
+
+.cover p{
+    margin: 0;
+}
+
+.cover img{
+    width: 100%;
+    min-height: 28vh;
+}

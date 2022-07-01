@@ -1,0 +1,36 @@
+html,
+body {
+    width: 100%;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(162, 110, 245);
+    font-weight: bold;
+}
+
+.category_list {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 15px;
+}
+
+.category_box {
+    width: 29vw;
+    height: 35vw;
+    overflow: hidden;
+    margin: auto;
+}
+
+.category_info p {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.category_info img {
+    width: 100%;
+    border-radius: 23px;
+    box-shadow: rgba(237, 70, 255, 0.5) 1.5px 1px 5.2px;
+}

@@ -1,0 +1,19 @@
+.loading {
+    display: flex;
+    justify-content: right;
+}
+
+img.animated-gif {
+    width: 100vw;
+    height: 95vh;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.3));
+}
+
+img.icon {
+    position: fixed;
+    width: auto;
+    height: 15vh;
+    bottom: 0;
+    backdrop-filter: blur(1px);
+    border-radius: 80px;
+}

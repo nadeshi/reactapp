@@ -1,0 +1,20 @@
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    margin-bottom: 2px;
+}
+
+.collapsible p{
+    margin: 0;
+    max-width: 90%;
+}
+
+.seriesList{
+    margin-bottom: 5px;
+}

@@ -1,0 +1,30 @@
+.manga_name {
+    text-shadow: rgb(107, 77, 182) 1px 0 10px;
+    width: 100vw;
+    text-align: center;
+    height: 6vh;
+}
+
+.manga_name p {
+    padding: auto;
+}
+
+.manga img {
+    width: 100vw;
+}
+
+.manga_bottom {
+    bottom: 0;
+}
+
+.manga_next {
+    position: absolute;
+    right: 0;
+    background-color: #f1f1f1;
+}
+
+.manga_prev{
+    position: absolute;
+    left: 0;
+    background-color: #f1f1f1;
+}

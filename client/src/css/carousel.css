@@ -1,0 +1,25 @@
+.first_layer {
+    height: 100%;
+}
+
+.first_layer img {
+    width: 100%;
+    z-index: -1;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.second_layer {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second_layer video {
+    width: 100%;
+    margin-bottom: 100px;
+    height: 75vh;
+}

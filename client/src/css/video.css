@@ -1,0 +1,13 @@
+.play-container {
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    background-image: url("../../public/images/erokorasozai220405-10.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.play-container video {
+    width: 100%;
+}

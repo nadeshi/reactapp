@@ -1,0 +1,17 @@
+.playgroundpage{
+    height: 100vh;
+    overflow: hidden;
+}
+
+.playground {
+    height: 100vh;
+    overflow: hidden;
+    background-image: url("../../public/images/sonoBisque-doll220511-9.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.drag_item img {
+    height: 20vh;
+}
