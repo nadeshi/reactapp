@@ -25,7 +25,7 @@ carousel/
 short/
 dragItem/
 manga/
-localdata/
+localData/
 
 
 npm-debug.log*
