@@ -7,6 +7,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { storeEpisode } from "../features/mangaSlice";
 
 function MangaPage() {
+  window.scroll(0,0);
   const name = useSelector((state) => state.manga.manga.name);
   const titles = useSelector((state) => state.manga.manga.title);
   const dispatch = useDispatch();

@@ -7,6 +7,7 @@ import { storeManga } from "../features/mangaSlice";
 import { useDispatch } from "react-redux";
 
 function Bookshelf() {
+  window.scroll(0,0);
   const dispatch = useDispatch();
 
   return (
